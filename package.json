@@ -1,0 +1,19 @@
+{
+  "name": "challenge-nodejs-01",
+  "version": "1.0.0",
+  "module": "CommonJS",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx tsx --watch src/server.ts"
+  },
+  "dependencies": {
+    "fastify": "^4.17.0",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "tsx": "^3.12.7",
+    "typescript": "^5.0.4"
+  }
+}
